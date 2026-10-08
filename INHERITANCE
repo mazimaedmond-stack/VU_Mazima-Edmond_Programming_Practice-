@@ -1,0 +1,27 @@
+# file: animals.py
+
+class Animal:
+
+def speak(self):
+
+print("I am an animal")
+
+class Dog(Animal):
+
+def speak(self):
+
+print("Woof!")
+
+# overrides the parent version
+
+d = Dog()
+
+d.speak()
+
+>> Woof!
+
+a = Animal()
+
+a.speak()
+
+>> I am an animal
